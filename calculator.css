@@ -20,6 +20,11 @@ table{
 button:hover{
     transform:scale(1.1);
 }
+@media(max-width:450px){
+    button:hover{
+        transform:none;
+    }
+}
 
 td{
     width:90px;
